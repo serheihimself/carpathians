@@ -11,15 +11,23 @@
     />
     <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/main.css" />
     <title>Carpathians</title>
   </head>
   <body>
     <header>
+      <div class="container">
       <nav>
-        <a href="#"></a>
+        <a href="#">
+          <svg width="60" height="60">
+            <use href="/images/sprite.svg#icon-Logo"></use>
+          </svg>
+        </a>
         <ul>
           <li><a href="">Abous us</a></li>
           <li><a href="">Tours</a></li>
@@ -27,9 +35,21 @@
           <li><a href="">Gallery</a></li>
           <li><a href="">Contacts</a></li>
         </ul>
+      </div>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <section class="hero__container">
+      <div class="container">
+        <h1>TOURS TO THE CARPATHIANS FROM LVIV</h1>
+        <p>
+          Journeys to the very heart of the Carpathians for those who want a
+          real reboot
+        </p>
+        <button>BOOK A TOUR</button>
+      </div>
+    </section>
+    </main>
     <footer></footer>
   </body>
 </html>

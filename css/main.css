@@ -34,4 +34,11 @@ button {
   padding-left: 15px;
   padding-right: 15px;
   margin: auto;
+}
+
+.hero__container {
+  background-image: url("../../images/hero_bg.jpg");
+  text-align: center;
+  padding-top: 258px;
+  padding-bottom: 266px;
 }/*# sourceMappingURL=main.css.map */
