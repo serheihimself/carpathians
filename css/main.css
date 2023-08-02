@@ -59,4 +59,10 @@ button {
   padding-top: 258px;
   padding-bottom: 266px;
   position: relative;
+}
+
+.hero__title {
+  font-size: 88px;
+  font-weight: 400;
+  color: var(--background-color);
 }/*# sourceMappingURL=main.css.map */
