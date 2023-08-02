@@ -59,10 +59,26 @@ button {
   padding-top: 258px;
   padding-bottom: 266px;
   position: relative;
+  color: var(--background-color);
 }
 
 .hero__title {
   font-size: 88px;
   font-weight: 400;
+}
+
+.hero__description {
+  font-size: 28px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.hero__button {
+  width: 575px;
+  height: 69px;
+  background-color: var(--accent-color);
   color: var(--background-color);
+  font-size: 24px;
+  padding: 10px;
+  border: none;
 }/*# sourceMappingURL=main.css.map */
