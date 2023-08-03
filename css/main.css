@@ -24,6 +24,7 @@ a {
 }
 
 button {
+  border: none;
   cursor: pointer;
 }
 
@@ -51,6 +52,7 @@ button {
   font-weight: 400;
   color: var(--primary-color);
   margin-bottom: 60px;
+  text-align: center;
 }
 
 .header {
@@ -134,9 +136,20 @@ button {
   width: 630px;
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: 24px;
+  top: 74%;
+  left: 50%;
+  gap: 25px;
+  transform: translate(-50%, -50%);
 }
 
 .about__card {
   background-color: var(--accent-color);
+  color: var(--background-color);
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */

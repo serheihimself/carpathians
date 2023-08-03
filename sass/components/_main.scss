@@ -52,8 +52,19 @@
   width: 630px;
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: 24px;
+  top: 74%;
+  left: 50%;
+  gap: 25px;
+  transform: translate(-50%, -50%);
 }
 .about__card {
   background-color: var(--accent-color);
+  color: var(--background-color);
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 400;
 }
