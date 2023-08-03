@@ -18,6 +18,11 @@ p {
   list-style: none;
 }
 
+a {
+  color: var(--background-color);
+  text-decoration: none;
+}
+
 button {
   cursor: pointer;
 }
