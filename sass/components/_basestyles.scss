@@ -33,10 +33,21 @@ button {
   font-weight: 500;
   margin: 0;
 }
+.section {
+  padding-top: 80px;
+  text-align: center;
+}
 
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: auto;
+}
+
+.second__title {
+  font-size: 68px;
+  font-weight: 400;
+  color: var(--primary-color);
+  margin-bottom: 60px;
 }
